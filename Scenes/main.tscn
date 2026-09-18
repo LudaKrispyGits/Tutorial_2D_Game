@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dgggsnybr7vbx"]
+
+[ext_resource type="Script" uid="uid://bs7rg0f5k72cg" path="res://Scripts/main.gd" id="1_kry3j"]
+[ext_resource type="PackedScene" uid="uid://cgmktlyt3pw0a" path="res://Scenes/slime.tscn" id="2_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://567nja1bggju" path="res://Scenes/Blueslime.tscn" id="3_8gbba"]
+[ext_resource type="PackedScene" uid="uid://c6qhrmxd4qm14" path="res://Scenes/Base_lvl.tscn" id="5_21xkr"]
+
+[node name="Main" type="Node2D" unique_id=46791381]
+script = ExtResource("1_kry3j")
+
+[node name="BlueSlime" parent="." unique_id=583020337 instance=ExtResource("3_8gbba")]
+position = Vector2(119.000015, 631.00006)
+collision_mask = 1
+
+[node name="Slime" parent="." unique_id=1814985335 instance=ExtResource("2_bo1nx")]
+position = Vector2(105.99999, 56.999996)
+collision_mask = 1
+
+[node name="Slime2" parent="." unique_id=924718583 instance=ExtResource("2_bo1nx")]
+position = Vector2(985.99994, 57.000004)
+collision_mask = 1
+
+[node name="levelRoot" parent="." unique_id=1468563292 instance=ExtResource("5_21xkr")]

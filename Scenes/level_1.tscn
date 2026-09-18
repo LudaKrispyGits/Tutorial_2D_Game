@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://d3wbkt53g3emh"]
+
+[ext_resource type="PackedScene" uid="uid://c6qhrmxd4qm14" path="res://Scenes/Base_lvl.tscn" id="1_vk57k"]
+[ext_resource type="PackedScene" uid="uid://567nja1bggju" path="res://Scenes/Blueslime.tscn" id="2_8ffim"]
+
+[node name="level_root" unique_id=1468563292 instance=ExtResource("1_vk57k")]
+
+[node name="BlueSlime" parent="Player" parent_id_path=PackedInt32Array(1058179114) index="5" unique_id=1814985335 instance=ExtResource("2_8ffim")]
+position = Vector2(176.74998, -18.749998)
+scale = Vector2(1.14, 1.14)
