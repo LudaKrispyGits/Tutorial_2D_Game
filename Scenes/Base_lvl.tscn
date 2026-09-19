@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://blfssalbm10sa" path="res://Assets/Images/Tiles/Water_Middle.png" id="8_d8kd6"]
 [ext_resource type="PackedScene" uid="uid://d0hvwtjyc5ylb" path="res://Scenes/player.tscn" id="9_0xjxm"]
 [ext_resource type="Texture2D" uid="uid://druu563iovo4e" path="res://Assets/Images/Outdoor Tings/Outdoor_Decor_Free.png" id="9_ncore"]
+[ext_resource type="PackedScene" uid="uid://cgmktlyt3pw0a" path="res://Scenes/slime.tscn" id="12_cnf2t"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k7lwc"]
 texture = ExtResource("1_dlk3h")
@@ -408,3 +409,6 @@ metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Exit" unique_id=861481339]
 shape = SubResource("RectangleShape2D_g4v7s")
+
+[node name="Slime" parent="." unique_id=1814985335 instance=ExtResource("12_cnf2t")]
+position = Vector2(497.99997, 75.99999)
